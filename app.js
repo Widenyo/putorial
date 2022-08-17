@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('PUTORIAL XD')
 })
 
+app.get('/aaa', (req, res) => {
+  res.send('PUTORIAL /aaa')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
