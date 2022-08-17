@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/aaa', (req, res) => {
-  res.send('PUTORIAL /aaa')
+  res.send('PUTORIAL /aaatest')
 })
 
 app.listen(port, () => {
